@@ -1,7 +1,6 @@
 // define your functions like this so they're testable
 //any functions here are hoisted and available in main.js
 
-//shows all reservations
 const getReservations = () => {
   return fetch('http://localhost:3000/reservations')
     .then(res => res.json())
